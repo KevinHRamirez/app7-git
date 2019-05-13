@@ -20,24 +20,24 @@
 <body>
 <div data-role="page" id="Principal" data-theme="b">
 <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
-<h1>Apliacion a elegir</h1>
+<h1>Aplicacion a elegir</h1>
 </div>
 <div data-role="main" class="ui-content" align="center">
 <div style="width:40%">
 <ul data-role="controlgroup" data-type="vertical" data-theme="b">
 <li class="ui-first-child ui-last-child">
-    <a href="index.html" target="_self" data-role="button">
-    <h4>Apliacion 1</h4>
+    <a href="#pagea" target="_self" data-role="button">
+    <h4>Aplicacion 1</h4>
     </a>
     </li>
 <li class="ui-first-child ui-last-child">
-    <a href="index5.html" target="_self" data-role="button">
-    <h4>Apliacion 5</h4>
+    <a href="#pageb" target="_self" data-role="button">
+    <h4>Aplicacion 5</h4>
     </a>
     </li>
 <li class="ui-first-child ui-last-child">
-    <a href="index6.html" target="_self" data-role="button">
-    <h4>Apliacion 6</h4>
+    <a href="#pagec" target="_self" data-role="button">
+    <h4>Aplicacion 6</h4>
     </a>
     </li>
 </ul>
@@ -48,6 +48,184 @@
 <h4>Kevin Hernández Ramírez</h4>
 <img src="res/android/mdpi.png" width="56" height="46">
 </div>
+</div>
+
+<div data-role="page" id="pagea" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Aplicación Deslizar (swipe)</h1>
+</div>
+
+<div data-role="main" class="ui-content"> 
+<div>
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Deslizar </h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Kevin Hernández Ramírez</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page3" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Acciones</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div>
+<ul data-role="controlgroup" data-type="vertical" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Izquierda</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Derecha</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Kevin Hernández Ramírez</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page4" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Desliza a la Izquierda</h1>
+</div>
+<div data-role="content" align="center">
+<div id="izquierda" style="width:90%;height:300px;background-color:#09F;">
+</div>
+
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Kevin Hernández Ramírez</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+
+<div data-role="page" id="page5" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+
+<h1>Desliza a la Derecha</h1>
+</div>
+<div data-role="content" align="center">
+<div id="derecha" style="width:90%;height:300px;background-color:#9F3;">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>Kevin Hernández Ramírez</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+</div>
+
+<div data-role="page" id="pageb" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Advertencias del Dispositivo</h1>
+</div>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="#" data-role="button" id="beep">
+<h2>Beep</h2>
+</a>
+</li>
+<li class="ui ui-first-child ui-last-child">
+<a href="#" data-role="button" id="vibrar">
+<h2>Vibrar</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>Kevin Hernández Ramírez</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="pagec" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Datos del Dispositivo</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Dispositivo</h2>
+</a>
+</li>
+
+</ul>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4> Kevin  Hernández Ramírez </h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
+<div data-role="page" id="page2" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dispositivo</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div id="disp">
+<table width="200" border="1" id="datos">
+<tr>
+<td width="83">Datos</td>
+<td width="101">Dispositivo</td>
+</tr>
+<tr>
+<td>Nombre</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Phonegap</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Plataforma</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Versión</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>UUID</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<h4>Kevin Hernández Ramírez</h4>
+<img src="res/android/mdpi.png" width="56" height="46">
+</div>
+</div>
+
 </div>
 </body>
 </html>
