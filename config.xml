@@ -2,13 +2,13 @@
 
 <widget xmlns ="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
-id ="com.phonegap.app5"
+id ="com.phonegap.app7"
 version = "1.0.0">
 
-<name> App5 Advertencias del dispositivo </name>
+<name> App7 Mostrar Aplicaciones </name>
 
 <description>
-Aplicación que realiza la vibración y beep del dispositivo.
+Union de aplicaciones
 </description>
 
 <author href="https://build.phonegap.com" email="cb16.hernandez.ramirez.kevinf@gmail.com">
