@@ -5,7 +5,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
 id ="com.phonegap.app7"
 version = "1.0.0">
 
-<name> App7 - Apliacaciones en una</name>
+<name> aplicaciones en una</name>
 
 <description>
 Union de aplicaciones vistas anteriormente
@@ -16,14 +16,13 @@ Kevin Hernandez Ramirez
 </author>
 
 <!-- Personaliza la aplicacion y plataforma -->
-<!-- <preference name="orientation"	value="default" />-->
-<preference name="orientation"	value="portrait"/>
-<!-- <preference name="orientation"	value="landscape" /> -->
+<preference name="orientation"	value="default" />
+<!-- <preference name="orientation"	value="portrait"/>
+<preference name="orientation"	value="landscape" /> -->
 <preference name="target-device" value="universal" />
 <preference name="fullscreen"	value="true"/>
 <preference name="android-installLocation" value="auto"/>
 <preference name="permissions" value="INTERNET"/>
-
 
 <!-- Plugins -->
 <!-- Core plugins -->
